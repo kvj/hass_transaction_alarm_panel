@@ -1,0 +1,5 @@
+{
+    "name": "Zigbee Alarm Panel",
+    "domains": ["alarm_panel"],
+    "render_readme": true
+}
