@@ -198,7 +198,7 @@ class AlarmPanel(manual.ManualAlarm):
             payload["arm_mode"]["transaction"] = transaction
         _LOGGER.debug(
             f"Sending state: {payload} - {self.state}, {self._active_state}")
-        mqtt.async_publish(self.hass, topic, json.dumps(payload))
+        await mqtt.async_publish(self.hass, topic, json.dumps(payload))
 
     async def _subscribe(self, hass):
         await mqtt.async_subscribe(hass, self.mqtt_topic, self._make_state_subscribe())

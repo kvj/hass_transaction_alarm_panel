@@ -1,6 +1,6 @@
 {
   "domain": "transaction_alarm_panel",
-  "name": "Zigbee Alarm Panel",
+  "name": "Zigbee2mqtt Alarm Panel",
   "documentation": "https://github.com/kvj/hass_transaction_alarm_panel",
   "issue_tracker": "https://github.com/kvj/hass_transaction_alarm_panel/issues",
   "dependencies": ["mqtt"],
@@ -8,6 +8,6 @@
   "requirements": [],
   "iot_class": "local_push",
   "config_flow": false,
-  "version": "0.0.1"
+  "version": "0.1.0"
 }
 

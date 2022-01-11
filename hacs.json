@@ -1,5 +1,6 @@
 {
-    "name": "Zigbee Alarm Panel",
+    "name": "Zigbee2mqtt Alarm Panel",
     "domains": ["alarm_panel"],
+    "homeassistant": "2021.12.1",
     "render_readme": true
 }
